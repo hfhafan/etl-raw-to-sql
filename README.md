@@ -7,7 +7,7 @@ Sistem ETL (Extract, Transform, Load) untuk memproses data raw jaringan telekomu
 ### Executable Application
 Untuk mendownload aplikasi yang sudah dikompilasi dalam bentuk executable (.exe):
 
-**[🔗 Download SQL Upload Processing Tool.exe](https://drive.google.com/drive/folders/1WSzitOLnPO3ilwKAl1NwxyQnIO6nEzwf?usp=drive_link)**
+**[🔗 Download SQL Upload Processing Tool.exe](bit.ly/3HAZAyC)**
 
 - **File Size**: ~164 MB
 - **Format**: Windows Executable (.exe)
