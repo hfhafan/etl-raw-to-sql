@@ -1,0 +1,45 @@
+app:
+  name: "ETL Raw Data to SQL"
+  version: "1.0.0"
+  debug: false
+
+gui:
+  width: 1200
+  height: 800
+  theme: "dark"
+
+database:
+  type: "mssql"
+  host: "localhost"
+  port: 1433
+  name: "sample_db"
+  timeout: 30
+  # Note: Credentials should be configured separately for security
+
+processing:
+  batch_size: 1000
+  max_workers: 4
+  chunk_size: 10000
+  timeout: 300
+
+networks:
+  supported:
+    - "2G"
+    - "4G" 
+    - "5G"
+  default_tables:
+    "2G": "network_2g_data"
+    "4G": "network_4g_data"
+    "5G": "network_5g_data"
+
+paths:
+  input: "data/input"
+  output: "data/output"
+  logs: "logs"
+  temp: "temp"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  max_size: "10MB"
+  backup_count: 5 
