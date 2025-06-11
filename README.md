@@ -2,6 +2,23 @@
 
 Sistem ETL (Extract, Transform, Load) untuk memproses data raw jaringan telekomunikasi dan meng-upload ke database SQL dengan antarmuka GUI yang user-friendly.
 
+## 📥 Download
+
+### Executable Application
+Untuk mendownload aplikasi yang sudah dikompilasi dalam bentuk executable (.exe):
+
+**[🔗 Download SQL Upload Processing Tool.exe](https://drive.google.com/drive/folders/1WSzitOLnPO3ilwKAl1NwxyQnIO6nEzwf?usp=drive_link)**
+
+- **File Size**: ~164 MB
+- **Format**: Windows Executable (.exe)
+- **Requirements**: Windows 10 atau lebih tinggi
+- **No Installation Required**: Portable application
+
+### Source Code
+Repository ini berisi sample/demo code yang menunjukkan konsep dan arsitektur sistem:
+
+**[🔗 GitHub Repository](https://github.com/hfhafan/etl-raw-to-sql)**
+
 ## 🚀 Fitur Utama
 
 ### 1. Data Processing
@@ -75,6 +92,14 @@ etl-raw-to-sql/
 
 ## 🚀 Quick Start
 
+### Option 1: Download Executable (Recommended)
+1. **Download aplikasi** dari [Google Drive link](https://drive.google.com/drive/folders/1WSzitOLnPO3ilwKAl1NwxyQnIO6nEzwf?usp=drive_link)
+2. **Extract file** ke folder pilihan Anda
+3. **Jalankan** `SQL Upload Processing Tool.exe`
+4. **Login** dengan kredensial yang diberikan
+5. **Mulai processing** data Anda
+
+### Option 2: Run from Source Code
 1. **Clone Repository**
    ```bash
    git clone https://github.com/hfhafan/etl-raw-to-sql.git
@@ -148,7 +173,7 @@ Project ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) un
 ## 📞 Support
 
 Untuk support dan pertanyaan:
-- Create issue di GitHub repository
+- Create issue di [GitHub repository](https://github.com/hfhafan/etl-raw-to-sql/issues)
 - Email: [support email]
 - Documentation: Lihat folder `docs/`
 
@@ -160,6 +185,16 @@ Untuk support dan pertanyaan:
 - [ ] API endpoints untuk integration
 - [ ] Mobile companion app
 - [ ] Real-time data streaming
+
+## 📥 Download Links
+
+### Production Application
+- **[Google Drive Download](https://drive.google.com/drive/folders/1WSzitOLnPO3ilwKAl1NwxyQnIO6nEzwf?usp=drive_link)** - Ready-to-use executable
+- **File**: `SQL Upload Processing Tool.exe` (164.3 MB)
+
+### Source Code & Documentation
+- **[GitHub Repository](https://github.com/hfhafan/etl-raw-to-sql)** - Sample code dan dokumentasi
+- **[Documentation](https://github.com/hfhafan/etl-raw-to-sql/tree/main/docs)** - Detailed documentation
 
 ---
 
