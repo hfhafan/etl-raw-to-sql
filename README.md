@@ -50,7 +50,7 @@ Repository ini berisi sample/demo code yang menunjukkan konsep dan arsitektur si
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Raw Data      │    │   ETL Engine    │    │   SQL Database  │
-│   Files         │───▶│   Processing    │───▶│   Storage       │
+│   Files         │──▶│   Processing    │───▶│   Storage       │
 │   (2G/4G/5G)    │    │   & Transform   │    │   & Analytics   │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
