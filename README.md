@@ -2,6 +2,13 @@
 
 Sistem ETL (Extract, Transform, Load) untuk memproses data raw jaringan telekomunikasi dan meng-upload ke database SQL dengan antarmuka GUI yang user-friendly.
 
+## ☕ Traktir Kopi
+
+Bantu aku tetap semangat bikin fitur & update baru. Satu cangkir kopi dari kamu = satu langkah fitur berikutnya. 🙌
+
+[![Traktir Kopi di Saweria](https://img.shields.io/badge/click_Untuk_Traktir%20Kopi-Saweria-orange?logo=buymeacoffee&logoColor=white)](https://saweria.co/HDfauzan)
+
+
 ## 📥 Download
 
 ### Executable Application
