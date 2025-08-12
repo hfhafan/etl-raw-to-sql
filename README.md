@@ -14,7 +14,7 @@ Bantu aku tetap semangat bikin fitur & update baru. Satu cangkir kopi dari kamu 
 ### Executable Application
 Untuk mendownload aplikasi yang sudah dikompilasi dalam bentuk executable (.exe):
 
-**[🔗 Download SQL Upload Processing Tool.exe](bit.ly/3HAZAyC)**
+**[🔗 Download SQL Upload Processing Tool.exe](https://drive.google.com/drive/folders/1WSzitOLnPO3ilwKAl1NwxyQnIO6nEzwf?usp=drive_link)**
 
 - **File Size**: ~164 MB
 - **Format**: Windows Executable (.exe)
