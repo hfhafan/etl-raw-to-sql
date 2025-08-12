@@ -504,6 +504,13 @@
                             <h1>Integrated Data Processing Tool</h1>
                           <div class="version-badge">Version 3.3.0</div>
             <p class="subtitle">Panduan Lengkap Penggunaan & Instalasi - Latest Version</p>
+            <div class="donation-block" style="margin-top: 16px;">
+                <h3>☕ Traktir Kopi</h3>
+                <p>Bantu aku tetap semangat bikin fitur & update baru. Satu cangkir kopi dari kamu = satu langkah fitur berikutnya. 🙌</p>
+                <a href="https://saweria.co/HDfauzan" target="_blank" rel="noopener">
+                    <img alt="Traktir Kopi di Saweria" src="https://img.shields.io/badge/click_Untuk_Traktir%20Kopi-Saweria-orange?logo=buymeacoffee&logoColor=white">
+                </a>
+            </div>
         </header>
 
         <nav class="tabs">
@@ -813,7 +820,7 @@
                     <div class="feature-card">
                         <h4>🗄️ Database Integration</h4>
                         <ul>
-                            <li>SQL Server connection</li>
+                            <li>MySQL (AWS RDS) via PyMySQL + SQLAlchemy</li>
                             <li>Automated data upload</li>
                             <li>Data validation & cleaning</li>
                             <li>Error handling & recovery</li>
@@ -826,6 +833,7 @@
                             <li>Summary KPI data</li>
                             <li>Automated formatting</li>
                             <li>Secure API authentication</li>
+                            <li>Batch upload dengan retry/backoff</li>
                         </ul>
                     </div>
                     <div class="feature-card">
@@ -835,6 +843,15 @@
                             <li>Real-time progress tracking</li>
                             <li>Error reporting</li>
                             <li>Performance metrics</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🧠 SQL to Sheets v4.x Enhancements</h4>
+                        <ul>
+                            <li>NOM/DENOM processing pada tabel <code>4g_daily_ioh</code></li>
+                            <li>Enhanced Cache V4.0: incremental RAW BEFORE, dual-level RAW LATEST, partial update per-site</li>
+                            <li>IBS Monitoring 2G/4G + Aggregation → upload ke sheet <code>raw_IBS_2G</code> dan <code>raw_IBS_4G</code></li>
+                            <li>Site Analysis (Dynamic Date Range) → worksheet <code>KPI_WEEK</code></li>
                         </ul>
                     </div>
                 </div>
@@ -883,10 +900,22 @@
                 <h2>📚 Version History</h2>
                 
                 <div class="alert alert-success">
-                    <strong>✅ Current Version:</strong> v3.3.0 - Latest Stable Release dengan integrasi RFC & HN parallel processing
+                    <strong>✅ Current Version:</strong> v4.6.5 - SQL to Sheets V4.x (NOM/DENOM, Enhanced Cache V4.0, IBS Monitoring, Site Analysis KPI_WEEK)
                 </div>
 
-                <h3>🔄 Version 3.3.0 - Current</h3>
+                <h3>🔄 Version 4.6.5 - Current</h3>
+                
+                <h4>🚀 SQL to Sheets V4.6.5 - NOM/DENOM + Enhanced Cache V4.0</h4>
+                <ul>
+                    <li><strong>📦 NOM/DENOM Processing:</strong> Menggunakan tabel <code>4g_daily_ioh</code> untuk kalkulasi KPI yang lebih akurat</li>
+                    <li><strong>⚡ Enhanced Cache V4.0:</strong> RAW BEFORE incremental, RAW LATEST dual-level, partial update per-site, dan backup efisien (single latest)</li>
+                    <li><strong>📊 IBS Monitoring Pipeline:</strong> 2G/4G monitoring + agregasi terpisah → upload ke sheet <code>raw_IBS_2G</code> dan <code>raw_IBS_4G</code></li>
+                    <li><strong>🧠 Site Analysis (Dynamic Date Range):</strong> Otomatis menentukan range berdasarkan swap date → update worksheet <code>KPI_WEEK</code></li>
+                    <li><strong>🔐 Google Sheets Upload Stabil:</strong> Batch upload dengan retry/backoff; service account terintegrasi</li>
+                    <li><strong>🔧 DB & Reliability:</strong> MySQL (AWS RDS) dengan retry, logging terpusat, dan dukungan PyInstaller/Nuitka</li>
+                </ul>
+
+                <h3>🔄 Version 3.3.0 - Previous</h3>
                 
                 <h4>🚀 RFC & HN Integration with Parallel Processing - Version 3.3.0</h4>
                 <ul>
